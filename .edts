@@ -1,0 +1,5 @@
+:name "diffusion_protocol"
+:node-sname "diffusion_protocol"
+:erlang-cookie "diffusion_protocol"
+:lib-dirs '("_build/default/lib/" "test")
+:app-include-dirs '("include")

@@ -1,0 +1,2 @@
+-define(RD, "\x{01}"). %% record delimiter
+-define(FD, "\x{02}"). %% field delimiter
