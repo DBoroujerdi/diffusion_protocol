@@ -10,6 +10,6 @@
                               , client_id :: binary()
                               , version :: protocol_type()}).
 
--record(diffusion_message, {type :: atom(),
-                            headers :: list(binary()),
-                            data :: list(binary())}).
+-record(diffusion_message, { type :: atom()
+                           , headers :: list(binary())
+                           , data :: list(binary())}).
