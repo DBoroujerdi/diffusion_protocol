@@ -48,7 +48,7 @@ decode_connection_response_test() ->
     Bin = <<"4\x{2}100\x{2}C8D4048FA5712A3A-006740E900000004">>,
     Con = decode(Bin),
     ?assertEqual(#diffusion_connection{type=initial,
-                                       client_id= <<"C8D4048FA5712A3A-006740E90000000">>,
+                                       client_id= <<"C8D4048FA5712A3A-006740E900000004">>,
                                        version=4}, Con).
 
 -endif.
